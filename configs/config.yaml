@@ -7,7 +7,7 @@ pipeline:
   random_state: 42
 
 deepseek:
-  api_key: "sk-fbea7722bd6a4a5091ca7ebeaeef59ce"
+  api_key: "Your-api-key"
   api_base: "https://api.deepseek.com/v1"
   model: "deepseek-reasoner"
   temperature: 0
