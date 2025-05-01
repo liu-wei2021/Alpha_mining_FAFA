@@ -1,4 +1,4 @@
-# Alpha Mining FAFA
+# Alpha Mining FAMA
 
 <p align="center">
   <a href="https://github.com/liu-wei2021/Alpha_mining_FAFA/graphs/contributors">
