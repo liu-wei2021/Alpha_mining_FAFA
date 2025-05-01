@@ -1,6 +1,10 @@
 # Alpha Mining FAFA
 
-A pipeline for computing and clustering information‐coefficient (IC) matrices of quantitative “Alpha” factors on financial time series.
+<p align="center">
+  <a href="https://github.com/liu-wei2021/Alpha_mining_FAFA/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=liu-wei2021/Alpha_mining_FAFA" />
+  </a>
+</p>
 
 ## Features
 
@@ -109,6 +113,15 @@ This will:
 2. Create a feature branch: `git checkout -b feature/xyz`
 3. Commit your changes & push
 4. Open a Pull Request
+
+## Contributors
+
+Thanks to the following people for their contributions:
+
+- **Vincent Liu wei** (@liu-wei2021) – project setup, alpha function implementations, CI configuration
+- **Jing Xi Wei** (@Jingxi-Wei) – project setup, alpha function implementations, CI configuration
+
+Feel free to add yourself via a PR if you’d like to be listed here.
 
 ## License
 
