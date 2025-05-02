@@ -5,9 +5,31 @@ data:
 pipeline:
   n_clusters: 8
   random_state: 42
+  function_definition: |
+    # Functions and Operators from Alpha101 and extensions:
+    # returns(x): Simple period-over-period return of x.
+    # ts_sum(x, n): Rolling sum of x over n periods.
+    # sma(x, n): Simple moving average of x over n periods.
+    # stddev(x, n): Rolling standard deviation of x over n periods.
+    # correlation(x, y, n): Rolling Pearson or Spearman correlation of x and y over n periods.
+    # covariance(x, y, n): Rolling covariance of x and y over n periods.
+    # rolling_rank(x): Rank of the last element in x.
+    # ts_rank(x, n): Rolling rank (percentile) of x over n periods.
+    # rolling_prod(x): Product of all elements in x.
+    # product(x, n): Rolling product of x over n periods.
+    # ts_min(x, n): Rolling minimum of x over n periods.
+    # ts_max(x, n): Rolling maximum of x over n periods.
+    # delta(x, n): Difference of x over n lags.
+    # delay(x, n): x delayed by n periods.
+    # rank(x): Cross-sectional rank of x scaled into [0,1].
+    # scale(x, k): Scale x so that sum of absolute values is 1, multiplied by k.
+    # ts_argmax(x, n): Position of maximum value in the past n periods.
+    # ts_argmin(x, n): Position of minimum value in the past n periods.
+    # decay_linear(x, n): Linear decay weighted moving average of x over n periods.
+
 
 deepseek:
-  api_key: "Your-api-key"
+  api_key: "sk-fbea7722bd6a4a5091ca7ebeaeef59ce"
   api_base: "https://api.deepseek.com/v1"
   model: "deepseek-reasoner"
   temperature: 0

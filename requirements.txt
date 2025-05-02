@@ -2,3 +2,5 @@ pandas
 pyyaml
 scipy
 scikit-learn
+langchain
+langchain-openai
